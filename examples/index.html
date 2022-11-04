@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lib/tooltip.css" />
+    <link rel="stylesheet" href="example.css" />
+    <title>Tooltip</title>
+  </head>
+  <body>
+    <section>
+      <button title="Auto">Auto</button>
+    </section>
+
+    <section class="sec-1">
+      <button title="Top" data-ttp-placement="top">Top</button>
+      <button title="Bottom" data-ttp-placement="bottom">Bottom</button>
+      <button title="Left" data-ttp-placement="left">Left</button>
+      <button title="Right" data-ttp-placement="right">Right</button>
+    </section>
+
+    <section class="sec-2">
+      <button data-ttp-placement="top-left" title="Top Left">Top Left</button>
+      <button data-ttp-placement="top-right" title="Top Right">
+        Top Right
+      </button>
+      <button data-ttp-placement="bottom-left" title="Bottom Left">
+        Bottom Left
+      </button>
+      <button data-ttp-placement="bottom-right" title="Bottom Right">
+        Bottom Right
+      </button>
+    </section>
+
+    <section class="sec-2">
+      <button data-ttp-placement="left-top" title="Left Top">Left Top</button>
+      <button data-ttp-placement="right-top" title="Right Top">
+        Right Top
+      </button>
+      <button data-ttp-placement="left-bottom" title="Left Bottom">
+        Left Bottom
+      </button>
+      <button data-ttp-placement="right-bottom" title="Right Bottom">
+        Right Bottom
+      </button>
+    </section>
+
+    <section>
+      <button class="top-left" title="Top left auto">Top left auto</button>
+      <button class="top-right" title="Top right auto">Top right auto</button>
+      <button class="top-center" title="Top Center Auto">
+        Top center auto
+      </button>
+      <button class="bottom-left" title="Bottom left auto">
+        Bottom left auto
+      </button>
+      <button class="bottom-right" title="Bottom right auto">
+        Bottom right auto
+      </button>
+      <button class="bottom-center" title="Bottom Center Auto">
+        Bottom center auto
+      </button>
+    </section>
+    <script src="../lib/tooltip.js"></script>
+  </body>
+</html>

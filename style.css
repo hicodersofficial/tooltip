@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Space Grotesk";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+a:hover {
+  color: #ff7900;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #040404;
+  font-weight: bold;
+  z-index: 9999;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding-inline-start: 0;
+  justify-content: center;
+}
+
+nav ul li {
+  padding: 1rem;
+}
+.margin {
+  margin-top: 70rem;
+}

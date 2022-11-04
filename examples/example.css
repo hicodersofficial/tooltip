@@ -1,0 +1,94 @@
+:root {
+  --ttp-delay: 0.1s;
+  --ttp-transition-timing: 0.5s;
+  --ttp-background: rgb(24, 24, 24);
+  --ttp-color: #fff;
+  --ttp-padding: 10px;
+  --ttp-font-size: 14px;
+  --ttp-border-radius: 4px;
+  --ttp-max-width: 250px;
+  --ttp-border: 1px solid #333;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+}
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  background: #ff7900;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  border: 1px solid #ffc088;
+}
+
+section button {
+  margin: 0.5rem;
+  width: 220px;
+}
+
+.top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.top-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.top-center {
+  position: absolute;
+  top: 0;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-center {
+  position: absolute;
+  bottom: 0;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bg-red {
+  background: red;
+  font-weight: bold;
+  font-size: 18px;
+  --ttp-padding: 1.5rem;
+  border: 1px solid blue;
+}
+
+.html {
+  background: blue;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 2rem;
+  border-radius: 4px;
+  display: block;
+  border: 1px solid red;
+}

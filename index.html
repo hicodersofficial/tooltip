@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./lib/tooltip.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+    ></script>
+    <title>Tooltip Homepage</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a title="Normal" href="/examples/index.html">Normal</a></li>
+        <li><a title="Mixed" href="/examples/mixed.html">Mixed</a></li>
+        <li>
+          <a title="Large" href="/examples/large-text.html">Large Text</a>
+        </li>
+        <li>
+          <a title="Really Large" href="/examples/really-large-text.html"
+            >Really Large Text</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div class="margin"></div>
+    <zero-md
+      style="
+        background: rgb(219, 219, 219);
+        padding: 1rem;
+        border-radius: 4px;
+        max-width: 1200px;
+      "
+      src="README.md"
+    ></zero-md>
+
+    <script src="./lib/tooltip.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lib/tooltip.css" />
+    <link rel="stylesheet" href="example.css" />
+    <title>Tooltip</title>
+  </head>
+  <body>
+    <section>
+      <button data-ttp-off title="No tooltip">No Tooltip</button>
+      <button title="Default tooltip">Default tooltip</button>
+      <button data-ttp-margin="40" title="Tooltip Margin">
+        Tooltip margin
+      </button>
+    </section>
+
+    <section>
+      <button data-ttp-triangle-off title="No tip triangle">
+        No tip triangle
+      </button>
+      <button data-ttp-class="bg-red" title="Custom class tooltip">
+        Custom class tooltip
+      </button>
+      <button
+        title="<b class='html'>Tooltip with Html.</b><br/><i>Italic text</i>"
+        data-ttp-event="click"
+      >
+        Tooltip with HTML
+      </button>
+    </section>
+    <script src="../lib/tooltip.js"></script>
+  </body>
+</html>
