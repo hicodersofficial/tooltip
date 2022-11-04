@@ -1,5 +1,27 @@
 # **Ultimate Tooltip**
 
+## **CDN**
+
+Include in project.
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/hicodersofficial/tooltip@main/lib/tooltip.css"
+/>
+<script src="https://cdn.jsdelivr.net/gh/hicodersofficial/tooltip@main/lib/tooltip.js"></script>
+```
+
+### Minified
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/hicodersofficial/tooltip@main/lib/tooltip.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/gh/hicodersofficial/tooltip@main/lib/tooltip.min.js"></script>
+```
+
 ## Data Property
 
 Use these data property to modify tooltip.
