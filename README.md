@@ -1,8 +1,10 @@
 # **Ultimate Tooltip**
 
+Lightweight tooltip library with ultimate flexibility and style.
+
 ## **CDN**
 
-Include in project.
+Include this in your project.
 
 ```html
 <link
