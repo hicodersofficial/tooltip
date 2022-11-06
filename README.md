@@ -1,6 +1,7 @@
 # **Ultimate Tooltip**
 
 Lightweight tooltip library with ultimate flexibility and style.
+[See basic preview on codepen](https://codepen.io/hicoders/pen/QWxKawm)
 
 ## **CDN**
 
